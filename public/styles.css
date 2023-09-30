@@ -1,0 +1,45 @@
+*,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+}
+#main{
+    text-align: center;
+}
+ul{
+    list-style:none;
+}
+#weather-data{
+    border: solid 1px grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+#forecast-data{
+    border: solid 1px grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+#weather-data:hover,#forecast-data:hover{
+    background-color: rgb(100, 235, 235);
+}
+.weather-condition{
+    display:flex
+}
+input{
+    width:60vh;
+    height:5vh;
+}
+input:focus{
+    border-radius: 5vh;
+    padding: 2vh;
+}
+button{
+    width:20vh;
+    height:5vh;
+    margin: 1vh 2vh;
+    padding: 1vh;
+}
